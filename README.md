@@ -9,7 +9,7 @@ To clone and run this project, please make sure you have git installed.
 The purpose of this project was to build a personal portfolio for my web development journey. When visiting this page you be able to view my LinkedIn profile,contact me via Email and ofcourse view my completed projects on GitHub.
 
 ## Images
-![Portfolio at a width greater than 850px](https://github.com/Nem-Ajvaz/homework_2/asset/images/screenshot/Greater_than_800px_1_of_3.png)
+![Portfolio at a width greater than 850px](/asset/images/screenshot/Greater_than_800px_1_of_3.png)
 <img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 1 of 3.png”>
 <img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 2 of 3.png”>
 <img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 3 of 3.png”>
