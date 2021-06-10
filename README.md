@@ -10,20 +10,20 @@ The purpose of this project was to build a personal portfolio for my web develop
 
 ## Images
 ![Portfolio at a width greater than 850px](/asset/images/screenshot/Greater_than_800px_1_of_3.png)
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 1 of 3.png”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 2 of 3.png”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Greater than 800px 3 of 3.png”>
+![Portfolio at a width greater than 850px](/asset/images/screenshot/Greater_than_800px_2_of_3.png)
+![Portfolio at a width greater than 850px](/asset/images/screenshot/Greater_than_800px_3_of_3.png)
 Portfolio at a width greater than 850px 
 
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 851px 1 of 3”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 851px 2 of 3”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 851px 3 of 3”>
+
+![Portfolio at a width less than 850px](/asset/images/screenshot/Less_than_851px_1_of_3)
+![Portfolio at a width less than 850px](/asset/images/screenshot/Less_than_851px_2_of_3)
+![Portfolio at a width less than 850px](/asset/images/screenshot/Less_than_851px_3_of_3)
 Portfolio at a width less than 850px 
 
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 601px 1 of 4”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 601px 2 of 4”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 601px 3 of 4”>
-<img src=“https://github.com/Nem-Ajvaz/homework_2/asset/images/Screen Shots/Less than 601px 4 of 4”>
+![Portfolio at a width less than 600px](asset/images/screenshots/Less_than_601px_1_of_4.png)
+![Portfolio at a width less than 600px](asset/images/screenshots/Less_than_601px_2_of_4.png)
+![Portfolio at a width less than 600px](asset/images/screenshots/Less_than_601px_3_of_4.png)
+![Portfolio at a width less than 600px](asset/images/screenshots/Less_than_601px_4_of_4.png)
 Portfolio at a width less than 600px 
 
 ## Issues faced
