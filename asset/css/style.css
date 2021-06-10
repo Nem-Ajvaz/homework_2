@@ -1,0 +1,301 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Removing default margins and padding */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Creating a flex container and spacing out the flex-boxes */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightslategray;
+}
+
+/* Creating a flex container */
+.pers-info {
+  display: flex;
+}
+
+/* Styling and aligning the h2 container */
+.nav-bar h2 {
+  margin: 20px 40px 30px 20px;
+  align-self: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Image styling */
+.nav-bar div img {
+  margin: 20px 15px;
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* Styling and aligning the flex-box */
+.nav-links {
+  display: flex;
+  align-self: center;
+}
+
+/* Creating a flex container */
+.nav-links ul {
+  display: flex;
+}
+
+/* Styling and aligning the list items*/
+.nav-links ul li {
+  list-style: none;
+}
+
+/* Styling and aligning the list items*/
+.nav-links ul li a {
+  text-decoration: none;
+  align-self: right;
+  margin: 10px 20px;
+  color: white;
+  border-bottom: white solid;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Styling for hover over list items */
+.nav-links ul li a:hover {
+  color: lightcoral;
+  border-color: lightcoral;
+}
+
+/* About Me Section */
+/* Creating a flex container and spacing out the flex-boxes */
+.about-me {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Assigning flex properties and centering the h2 tag */
+.about-me h2 {
+  color: rgb(85, 87, 87);
+  font-size: 20px;
+  text-align: left;
+  flex: 1 0 150px;
+  margin: 30px 30px;
+  border-right: rgb(85, 87, 87) solid;
+}
+
+/* Div margin */
+.about-me div {
+  margin: 30px;
+}
+
+/* P styling */
+.about-me div p {
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+/* Creating a flex container and spacing out the flex-boxes */
+.work {
+  margin-top: 0;
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Assigning flex properties and centering the h2 tag */
+.work h2 {
+  color: rgb(85, 87, 87);
+  font-size: 20px;
+  text-align: left;
+  flex: 1 0 150px;
+  margin: 30px 30px;
+  border-right: rgb(85, 87, 87) solid;
+}
+
+/* Creating a div for spacing */
+.container {
+  margin-left: 30px;
+  width: 100%;
+  height: 650px;
+}
+
+/* Main card styling */
+.large-card {
+  margin-top: 10px;
+  margin-left: 30px;
+  border: rgb(20, 173, 173) solid;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 300px;
+  border-radius: 10%;
+}
+.large-card:hover {
+  box-shadow: 0 0 15px rgb(20, 173, 173);
+}
+
+/* Styling for image */
+.large-card a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+/* Flex container with card alignment */
+.regular-card {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 150px;
+  justify-content: space-between;
+}
+
+/* Flex enabled for the paragraph */
+/* Styling for the card */
+.card {
+  display: flex;
+  margin-top: 0px;
+  align-self: center;
+  justify-content: center;
+  border: rgb(20, 173, 173) solid;
+  margin-left: 0.75%;
+  width: 48.5%;
+  height: 150px;
+  border-radius: 10%;
+}
+.card a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+/* Styling for card hover */
+.card:hover {
+  box-shadow: 0 0 15px rgb(20, 173, 173);
+}
+
+/* Creating a flex container and spacing out the flex-boxes */
+.footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightslategray;
+}
+
+.footer h2 {
+  margin: 20px 40px 20px 40px;
+  color: white;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Creating a flex container */
+.footer ul {
+  display: flex;
+}
+
+/* Styling and aligning the list items*/
+.footer ul li {
+  list-style: none;
+  margin: 10px 20px;
+}
+
+/* Dimensions for the footer image and border radius */
+.footer-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+/* Hovering over images */
+.footer-img:hover {
+  box-shadow: 0 0 15px rgba(231, 247, 15, 0.726);
+}
+
+/* WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport */
+
+@media screen and (max-width: 600px) {
+  .pers-info h2 {
+    font-size: 24px;
+  }
+
+  .container {
+    flex: 1;
+  }
+
+  .regular-card {
+    flex-direction: column;
+    flex: 1 0 auto;
+    height: auto;
+  }
+
+  .regular-card .card {
+    width: 100%;
+    margin: 8px 0;
+    flex: 1 0 150px;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer .contact-me {
+    text-align: center;
+  }
+
+  footer .contact-links ul {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .about-me,
+  .work {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .about-me h2,
+  .work h2 {
+    font-size: 20px;
+    text-align: center;
+    flex: 1 1 auto;
+    margin: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border: none;
+    border-bottom: rgb(85, 87, 87) solid;
+  }
+
+  .about-me div {
+    margin: 0;
+  }
+
+  .work .container {
+    margin: 0;
+  }
+
+  .pers-info {
+    justify-content: center;
+  }
+}
